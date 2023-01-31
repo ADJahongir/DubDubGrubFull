@@ -11,6 +11,12 @@
 		4421665429880C4700A7D27D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421665329880C4700A7D27D /* ContentView.swift */; };
 		4421665629880C4900A7D27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4421665529880C4900A7D27D /* Assets.xcassets */; };
 		4421665929880C4900A7D27D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4421665829880C4900A7D27D /* Preview Assets.xcassets */; };
+		44216661298813D000A7D27D /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44216660298813D000A7D27D /* AppTabView.swift */; };
+		442166632988148B00A7D27D /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442166622988148B00A7D27D /* LocationMapView.swift */; };
+		44216665298814A000A7D27D /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44216664298814A000A7D27D /* LocationListView.swift */; };
+		44216667298814B400A7D27D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44216666298814B400A7D27D /* ProfileView.swift */; };
+		44216669298814E100A7D27D /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44216668298814E100A7D27D /* Color+Ext.swift */; };
+		4421666B298889FB00A7D27D /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421666A298889FB00A7D27D /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		4421665329880C4700A7D27D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4421665529880C4900A7D27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4421665829880C4900A7D27D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4421665F298810BC00A7D27D /* DubDubGrubFull.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrubFull.entitlements; sourceTree = "<group>"; };
+		44216660298813D000A7D27D /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		442166622988148B00A7D27D /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		44216664298814A000A7D27D /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		44216666298814B400A7D27D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		44216668298814E100A7D27D /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		4421666A298889FB00A7D27D /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		4421665029880C4700A7D27D /* DubDubGrubFull */ = {
 			isa = PBXGroup;
 			children = (
+				4421665F298810BC00A7D27D /* DubDubGrubFull.entitlements */,
 				4421665129880C4700A7D27D /* DubDubGrubFullApp.swift */,
 				4421665329880C4700A7D27D /* ContentView.swift */,
+				44216660298813D000A7D27D /* AppTabView.swift */,
+				442166622988148B00A7D27D /* LocationMapView.swift */,
+				44216664298814A000A7D27D /* LocationListView.swift */,
+				4421666A298889FB00A7D27D /* LocationDetailView.swift */,
+				44216666298814B400A7D27D /* ProfileView.swift */,
+				44216668298814E100A7D27D /* Color+Ext.swift */,
 				4421665529880C4900A7D27D /* Assets.xcassets */,
 				4421665729880C4900A7D27D /* Preview Content */,
 			);
@@ -137,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4421666B298889FB00A7D27D /* LocationDetailView.swift in Sources */,
+				44216661298813D000A7D27D /* AppTabView.swift in Sources */,
+				44216669298814E100A7D27D /* Color+Ext.swift in Sources */,
+				44216665298814A000A7D27D /* LocationListView.swift in Sources */,
 				4421665429880C4700A7D27D /* ContentView.swift in Sources */,
+				442166632988148B00A7D27D /* LocationMapView.swift in Sources */,
+				44216667298814B400A7D27D /* ProfileView.swift in Sources */,
 				4421665229880C4700A7D27D /* DubDubGrubFullApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +290,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrubFull/DubDubGrubFull.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrubFull/Preview Content\"";
@@ -282,6 +310,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.ajidev.DubDubGrubFull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,6 +322,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrubFull/DubDubGrubFull.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrubFull/Preview Content\"";
@@ -311,6 +342,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.ajidev.DubDubGrubFull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
